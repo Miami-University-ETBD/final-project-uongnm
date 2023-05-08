@@ -13,6 +13,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script src="script.js"></script>
   </head>
 
@@ -33,7 +36,7 @@
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Michelangler</a>
+  <a href="#" class="logo w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Michelangler</a>
   <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
   <a href="#project" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Projects</a>
   <div class="w3-dropdown-hover w3-hide-small">
@@ -44,7 +47,8 @@
       <a href="#" class="w3-bar-item w3-button">Link</a>
     </div>
   </div>
-  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#faq" class="w3-bar-item w3-button w3-hide-small w3-hover-white">FAQ</a>
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
  </div>
@@ -313,31 +317,62 @@
 <div class="w3-row"><br>
 
 <div class="w3-quarter">
-  <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <div class="team-container w3-circle">
+    <img src="images/team1.jpg" alt="Boss" class="team-image w3-hover-opacity">
+  </div>
   <h3>Johnny Walker</h3>
-  <p>Web Designer</p>
+  <p>Engineer</p>
 </div>
 
 <div class="w3-quarter">
-  <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <div class="team-container w3-circle">
+    <img src="images/team2.jpg" alt="Boss" class="team-image w3-hover-opacity">
+  </div>
   <h3>Rebecca Flex</h3>
-  <p>Support</p>
+  <p>Architect</p>
 </div>
 
 <div class="w3-quarter">
-  <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <div class="team-container w3-circle">
+    <img src="images/team3.jpg" alt="Boss" class="team-image w3-hover-opacity">
+  </div>
   <h3>Jan Ringo</h3>
   <p>Boss man</p>
 </div>
 
 <div class="w3-quarter">
-  <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <div class="team-container w3-circle">
+    <img src="images/team4.jpg" alt="Boss" class="team-image w3-hover-opacity">
+  </div>
   <h3>Kai Ringo</h3>
-  <p>Fixer</p>
+  <p>Developer</p>
+</div>
+</div>
 </div>
 
-</div>
-</div>
+<div class="faq w3-row-padding w3-padding-64 w3-theme-l1" id="faq">
+  <h2 class="w3-center">FAQ</h2>
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Generalization Questions</a></li>
+      <li><a href="#tabs-2">Academic Questions</a></li>
+      <li><a href="#tabs-3">Generalization Questions</a></li>
+    </ul>
+    <div id="tabs-1">
+      <h2>Content heading 1</h2>
+      <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+    </div>
+    <div id="tabs-2">
+      <h2>Content heading 2</h2>
+      <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+    </div>
+    <div id="tabs-3">
+      <h2>Content heading 3</h2>
+      <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+      <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+    </div>
+  </div>
+  </div>
 
 <!-- Contact Container -->
 <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">

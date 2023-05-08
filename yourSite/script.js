@@ -20,3 +20,8 @@ function w3_open() {
       x.className = x.className.replace(" w3-show", "");
     }
   }
+
+  $( function() {
+    $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+    $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+  } );

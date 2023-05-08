@@ -4,6 +4,9 @@ html, body {
     line-height: 1.5;
 }
 
+a.logo {
+    background-color: #54bc44 !important; 
+}
 .drop-down {
     text-decoration: none; 
 }
@@ -59,6 +62,72 @@ img.gallery {
     padding-left: 5vw !important;
     padding-right: 5vw !important;
 }
+
 .service-content {
     padding-right: 15px !important;
+}
+
+.team-container {
+    margin: auto; 
+    width: 20vw;
+    height: 20vw; 
+    position: relative;
+    overflow: hidden; 
+}
+
+img.team-image {
+    object-fit: contain;
+    height: 30vw;
+    width: auto; 
+    overflow: hidden;
+}
+
+.faq {
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+}
+
+.ui-widget-content {
+    border: 0px !important;
+    background: #333333 !important;
+    color: #ffffff !important;
+}
+
+.ui-widget {
+    font-family: Verdana,sans-serif !important;
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+}
+
+.ui-tabs-vertical {
+    width: 100% !important;
+}
+
+.ui-widget-header {
+    border: 0px !important;
+    background: #333333 !important;
+    color: #ffffff;
+    font-weight: bold;
+}
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: 0 !important;
+}
+.ui-tabs-vertical { width: 20vw; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 20vw; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #c5c5c5;
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #454545;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #003eff;
+    background: #54bc44 !important;
+    font-weight: normal;
+    color: #ffffff;
 }
