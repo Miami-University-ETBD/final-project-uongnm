@@ -25,3 +25,15 @@ function w3_open() {
     $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
     $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
   } );
+
+  jQuery( document ).ready(function( $ ) {
+  
+    var question = $('.accordion .question');
+    var answer = $('.accordion .answer');
+    
+   $(question).click(function(){
+      $(answer).slideUp();
+      $(this).next().slideToggle('fast');
+    });
+     
+  });
