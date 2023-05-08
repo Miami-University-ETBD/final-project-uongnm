@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
     <script src="script.js"></script>
   </head>
 
@@ -30,7 +35,7 @@
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Michelangler</a>
   <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
-  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
+  <a href="#project" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Projects</a>
   <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
     <div class="w3-dropdown-hover w3-hide-small">
@@ -46,7 +51,7 @@
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#about" class="w3-bar-item w3-button">About</a>
     <a href="#project" class="w3-bar-item w3-button">Projects</a>
     <a href="#pricing" class="w3-bar-item w3-button">Price</a>
     <a href="#contact" class="w3-bar-item w3-button">Contact</a>
@@ -133,60 +138,127 @@
       </div>
     </div>
   </div>
+  <h2 class="w3-center w3-padding-32">ALL PROJECTS BY FILTER</h2>
+  <div class="w3-row-padding ">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Commercial</div>
+        <a href="#gallery-1" class="btn-gallery">
+          <img src="images/commercial1.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Residential</div>
+        <a href="#gallery-2" class="btn-gallery">
+          <img src="images/residential1.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Sustainable</div>
+        <a href="#gallery-3" class="btn-gallery">
+          <img src="images/sustainable1.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Industrial</div>
+        <a href="#gallery-4" class="btn-gallery">
+          <img src="images/industrial1.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+  </div>
 
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
+        <div class="w3-display-topleft w3-black w3-padding">Conservation</div>
+        <a href="#gallery-5" class="btn-gallery">
+          <img src="images/conservation1.jpg" alt="" />
+        </a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+        <div class="w3-display-topleft w3-black w3-padding">Landscape</div>
+        <a href="#gallery-6" class="btn-gallery">
+          <img src="images/landscape1.jpg" alt="" />
+        </a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
+        <div class="w3-display-topleft w3-black w3-padding">Urban</div>
+        <a href="#gallery-7" class="btn-gallery">
+          <img src="images/urban1.jpg" alt="" />
+        </a>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
+        <div class="w3-display-topleft w3-black w3-padding">Interior</div>
+        <a href="#gallery-8" class="btn-gallery">
+          <img src="images/interior1.jpg" alt="" />
+        </a>
       </div>
     </div>
   </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
-      </div>
+  <div class="project-container">
+    <div id="gallery-1" class="hidden">
+      <a href="images/commercial1.jpg">Image 1</a>
+      <a href="images/commercial2.jpg">Image 2</a>
+      <a href="images/commercial3.jpg">Image 3</a>
+      <a href="images/commercial4.jpg">Image 4</a>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
-      </div>
+    <div id="gallery-2" class="hidden">
+      <a href="images/residential1.jpg">Image 1</a>
+      <a href="images/residential2.jpg">Image 2</a>
+      <a href="images/residential3.jpg">Image 3</a>
+      <a href="images/residential4.jpg">Image 4</a>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
-      </div>
+    <div id="gallery-3" class="hidden">
+      <a href="images/sustainable1.jpg">Image 1</a>
+      <a href="images/sustainable2.jpg">Image 2</a>
+      <a href="images/sustainable3.jpg">Image 3</a>
+      <a href="images/sustainable4.jpg">Image 4</a>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
-      </div>
+    <div id="gallery-4" class="hidden">
+      <a href="images/industrial1.jpg">Image 1</a>
+      <a href="images/industrial2.jpg">Image 2</a>
+      <a href="images/industrial3.jpg">Image 3</a>
+      <a href="images/industrial4.jpg">Image 4</a>
     </div>
-  </div>
+    <div id="gallery-5" class="hidden">
+      <a href="images/conservation1.jpg">Image 1</a>
+      <a href="images/conservation2.jpg">Image 2</a>
+      <a href="images/conservation3.jpg">Image 3</a>
+      <a href="images/conservation4.jpg">Image 4</a>
+    </div>
+    <div id="gallery-6" class="hidden">
+      <a href="images/landscape1.jpg">Image 1</a>
+      <a href="images/landscape2.jpg">Image 2</a>
+      <a href="images/landscape3.jpg">Image 3</a>
+      <a href="images/landscape4.jpg">Image 4</a>
+    </div>
+    <div id="gallery-7" class="hidden">
+      <a href="images/urban1.jpg">Image 1</a>
+      <a href="images/urban2.jpg">Image 2</a>
+      <a href="images/urban3.jpg">Image 3</a>
+      <a href="images/urban4.jpg">Image 4</a>
+    </div>
+    <div id="gallery-8" class="hidden">
+      <a href="images/interior1.jpg">Image 1</a>
+      <a href="images/interior2.jpg">Image 2</a>
+      <a href="images/interior3.jpg">Image 3</a>
+      <a href="images/interior4.jpg">Image 4</a>
+    </div>
+    </div>
 
 <!-- Team Container -->
 <div class="w3-container w3-padding-64 w3-center" id="team">
@@ -436,6 +508,21 @@
     x[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " w3-white";
   }
+
+
+  $(document).ready(function() {
+    $('a.btn-gallery').on('click', function(event) {
+      event.preventDefault();
+      var gallery = $(this).attr('href');
+      $(gallery).magnificPopup({
+        delegate: 'a',
+        type:'image',
+        gallery: {
+          enabled: true
+        }
+      }).magnificPopup('open');
+    });
+  });
 </script>
 
   </body>
