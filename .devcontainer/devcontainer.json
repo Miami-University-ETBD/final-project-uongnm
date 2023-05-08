@@ -1,0 +1,4 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "extensions": ["ms-vscode.live-server", "esbenp.prettier-vscode"]
+}
