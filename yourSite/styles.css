@@ -67,6 +67,14 @@ img.gallery {
     padding-right: 15px !important;
 }
 
+.w3-teal {
+    position:absolute;
+    top:-28px;
+    right:24px;
+    color: #ffffff !important;
+    background-color: #54bc44 !important;
+}
+
 .team-container {
     margin: auto; 
     width: 20vw;
@@ -88,7 +96,8 @@ img.team-image {
 }
 
 .ui-widget-content {
-    border: 0px !important;
+    border-right: #f1f1f1 !important;
+    border-left: #f1f1f1 !important;
     background: #333333 !important;
     color: #ffffff !important;
 }
@@ -110,24 +119,44 @@ img.team-image {
     font-weight: bold;
 }
 .ui-tabs .ui-tabs-nav {
-    margin: 0;
+    margin-top: 20px !important;
     padding: 0 !important;
 }
 .ui-tabs-vertical { width: 20vw; }
-.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 20vw; }
-.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav { padding: 0 !important; float: left; width: 20vw; }
+.ui-tabs-vertical .ui-tabs-nav li { 
+    clear: left; 
+    width: 100%; 
+    border-bottom-width: 1px !important; 
+    border-right-width: 0 !important; 
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin: 0 !important; }
 .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
-.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
-.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { 
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-right: .1em; 
+    border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 60vw;}
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
-    border: 1px solid #c5c5c5;
-    background: #f6f6f6;
+    border-bottom: 1px solid #f1f1f1 !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    background: #333333 !important;
     font-weight: normal;
-    color: #454545;
+    color: #ffffff !important;
 }
+
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
-    border: 1px solid #003eff;
+    border: 1px solid #54bc44 !important;
     background: #54bc44 !important;
     font-weight: normal;
     color: #ffffff;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
+    color: #ffffff !important;
+    text-decoration: none;
 }
