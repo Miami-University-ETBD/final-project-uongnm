@@ -47,7 +47,7 @@
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
     <a href="#team" class="w3-bar-item w3-button">Team</a>
-    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#project" class="w3-bar-item w3-button">Projects</a>
     <a href="#pricing" class="w3-bar-item w3-button">Price</a>
     <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     <a href="#" class="w3-bar-item w3-button">Search</a>
@@ -55,11 +55,11 @@
 </div>
 
 <!-- Image Header -->
-<div class="w3-display-container w3-animate-opacity">
-  <img src="/w3images/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
-  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
-    <h2>CLIMATE ACTION THROUGH DESIGN</h2>
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">LEARN W3.CSS</button>
+<div class="hero w3-display-container">
+  <div class="hero-content w3-display-bottomleft">  
+    <h1>CLIMATE ACTION THROUGH DESIGN</h1>
+    <h2>Our Strategies Are Transforming the Built Environment for a Net Carbon Future!</h1>
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-theme w3-hover-teal hero-button">LEARN MORE</button>
   </div>
 </div>
 
@@ -68,12 +68,12 @@
   <div class="w3-modal-content w3-card-4 w3-animate-top">
     <header class="w3-container w3-teal w3-display-container"> 
       <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
-      <h4>Oh snap! We just showed you a modal..</h4>
-      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+      <h1>We are creating a better world through the power of design.</h1>
     </header>
     <div class="w3-container">
-      <p>Cool huh? Ok, enough teasing around..</p>
-      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+      <h5>TRANSFORMING THE BUILT ENVIRONMENT FOR A NET ZERO FUTURE</i></h5>
+      <p>Michelangler is a global architecture, design, and planning firm with 53 locations across Asia, Europe, Australia, the Middle East, and the Americas. Every day we impact millions of people’s lives with the spaces we create, which is why people are at the center of everything we do. Designing for the human experience is what allows us to tackle the toughest challenges facing cities and shape a more resilient and equitable future for everyone.</p>
+      <p>Addressing the built environment’s impact on climate change is both a moral and business imperative. At Gensler, our goal is to make all the buildings we design net carbon zero by 2030. Explore our strategies for designing a resilient and equitable future. Our portfolio is already designed to save over 17 million metric tons of CO2 from being emitted on a yearly basis. But there’s still so much more work to do — and it can’t be done without the help of our clients, colleagues, and industry. Our mission is to transform the built environment for a net zero future with every project, in every location, and for every person.</p>
     </div>
     <footer class="w3-container w3-teal">
       <p>Modal footer</p>
@@ -82,15 +82,20 @@
 </div>
 
   <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p>Michelangler is a global architecture, design, and planning firm with 53 locations and more than 7,000 professionals networked across the Americas, Europe, Greater China, Asia Pacific, and the Middle East. Founded in 1965, the firm works globally with more than 4,000 clients across more than 29 practice areas spanning the work, lifestyle, community, and health sectors. We are guided by our mission to create a better world through the power of design and believe the source of our strength is our people.
+  <div class="w3-container w3-padding-32 w3-theme-l1" id="about">
+    <h2 class="w3-center">ABOUT</h2>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">The Source of Our Strength Is Our People</h3>
+    <p>By leveraging our diversity of ideas, our research and innovation, our shared values, and our One-Firm Firm culture, we are moving forward together into a new era defined by design. By empowering our people and working seamlessly as an interconnected firm, we’re able to make the greatest impact for our communities as we continue to tackle the world’s challenges.</p>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">We’re Committed to Enriching Our Communities.</h3>
+    <p>As stewards of our local communities, we are keenly focused on how we can design impactful, meaningful projects that benefit the people who live in them. Across every Gensler office around the world, our people donate their time, skills, and passion to their communities through volunteer service and pro bono and low bono work. We believe that when we put people first, we make the world a better place.
     </p>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">We Want to Be the Example for a More Diverse and Inclusive World.</h3>
+    <p>Michelangler is committed to driving change across the design industry, our client relationships, and the cities where we live, work, and play. We are dedicated to leading this change by starting from within. Two years since we launched our Strategies to Fight Racism, we continue to evolve our diversity, equity, and inclusion efforts, taking on an ever more localized approach in each of our communities. From partnering with our clients in designing equitable spaces, to creating opportunities in our industry for diverse talent, we have made measurable progress on all fronts and continue to take action to create purposeful, inclusive, and resilient spaces for everyone.</p>
   </div>
 
   <!-- Project Section -->
-  <div class="w3-container w3-padding-32" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  <div class="w3-container w3-padding-32" id="project">
+    <h2 class="w3-center">FEATURED PROJECTS</h2>
   </div>
 
   <div class="w3-row-padding">
@@ -364,28 +369,6 @@
 </footer>
 
 <script>
-// Script for side navigation
-function w3_open() {
-  var x = document.getElementById("mySidebar");
-  x.style.width = "300px";
-  x.style.paddingTop = "10%";
-  x.style.display = "block";
-}
-
-// Close side navigation
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-
-// Used to toggle the menu on smaller screens when clicking on the menu button
-function openNav() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
 </script>
 
   </body>
