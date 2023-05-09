@@ -24,6 +24,32 @@ function w3_open() {
   $( function() {
     $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
     $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+    $("#name").focus();
+    $("#contact_form").validate({         //<form> tag’s id
+      rules: {
+        name: {
+          required: true
+        },
+        email: {
+          required: true,
+          email: true
+        },
+        phone: {
+          required: true,
+          phoneUS: true
+        },
+        message: {
+          required: true,
+          minlength: 10
+        },
+      },
+    messages: {
+        email:{
+          required: "Hey, it looks like you still need to fill out this field",
+          email: "Please enter a valid email like email@domain.com"
+          }
+        }
+    }); // end validate
   } );
 
   // jQuery script 
@@ -32,4 +58,3 @@ function w3_open() {
       $(this).next().toggle('slow');
   })
   });
-  

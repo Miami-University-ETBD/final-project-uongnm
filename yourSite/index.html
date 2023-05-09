@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script> 
     <script src="script.js"></script>
   </head>
 
@@ -91,7 +93,7 @@
 </div>
 
   <!-- About Section -->
-  <div class="w3-container w3-padding-32 w3-theme-l1" id="about">
+  <div class="w3-container w3-padding-32 w3-theme-l1 about" id="about">
     <h2 class="w3-center">ABOUT</h2>
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">The Source of Our Strength Is Our People</h3>
     <p>By leveraging our diversity of ideas, our research and innovation, our shared values, and our One-Firm Firm culture, we are moving forward together into a new era defined by design. By empowering our people and working seamlessly as an interconnected firm, we’re able to make the greatest impact for our communities as we continue to tackle the world’s challenges.</p>
@@ -400,32 +402,34 @@
   </div>
 
 <!-- Contact Container -->
-<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+<div class="w3-container w3-padding-64 w3-theme-l5 contact" id="contact">
   <div class="w3-row">
     <div class="w3-col m5">
-    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+    <div class="w3-padding-16"><span class="w3-xlarge contact-bar">Contact Us</span></div>
       <h3>Address</h3>
       <p>Swing by for a cup of coffee, or whatever.</p>
-      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Chicago, US</p>
-      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1515151515</p>
-      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@test.com</p>
+      <p><i class="fa fa-map-marker contact-text-teal w3-xlarge"></i>  Chicago, US</p>
+      <p><i class="fa fa-phone contact-text-teal w3-xlarge"></i>  +00 1515151515</p>
+      <p><i class="fa fa-envelope-o contact-text-teal w3-xlarge"></i>  test@test.com</p>
     </div>
     <div class="w3-col m7">
-      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" method="get" name="contact_form" id="contact_form">
       <div class="w3-section">      
         <label>Name</label>
-        <input class="w3-input" type="text" name="Name" required>
+        <input class="w3-input" type="text" name="name" id="name" autofocus>
       </div>
       <div class="w3-section">      
         <label>Email</label>
-        <input class="w3-input" type="text" name="Email" required>
+        <input class="w3-input" type="email" name="email" id="email">
       </div>
       <div class="w3-section">      
-        <label>Message</label>
-        <input class="w3-input" type="text" name="Message" required>
+        <label>Phone</label>
+        <input class="w3-input" type="tel" name="phone" id="phone">
       </div>  
-      <input class="w3-check" type="checkbox" checked name="Like">
-      <label>I Like it!</label>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="message" id="message">
+      </div>  
       <button type="submit" class="w3-button w3-right w3-theme">Send</button>
       </form>
     </div>
