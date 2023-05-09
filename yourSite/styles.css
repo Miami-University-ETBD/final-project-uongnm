@@ -4,6 +4,7 @@ html, body {
     line-height: 1.5;
 }
 
+/* Navbar */
 .w3-bar .w3-bar-item {
     padding: 10px 20px !important;
 }
@@ -28,6 +29,7 @@ a.logo-diabled {
     text-decoration: none; 
 }
 
+/* Image Header */
 .hero {
     background-image:
     linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(0,0,0,0.5)),
@@ -63,6 +65,7 @@ a.logo-diabled {
     background-color: #54bc44 !important;
 }
 
+/* Modal */
 .modal-header {
     color: #fff!important;
     background-color: #000000!important;
@@ -73,11 +76,13 @@ a.logo-diabled {
     background-color: #000000!important;
 }
 
+/* About Section */
 .about {
     padding-left: 5vw !important;
     padding-right: 5vw !important; 
 }
 
+/* Project Section */
 img.gallery {
     width: 100%;
     height: 80vh; 
@@ -105,6 +110,7 @@ img.gallery {
     visibility: hidden;
 }
 
+/* Work Row */
 .service {
     padding-left: 5vw !important;
     padding-right: 5vw !important;
@@ -126,6 +132,7 @@ img.gallery {
     color: #54bc44 !important;
 }
 
+/* Team Section */
 .team-container {
     margin: auto; 
     width: 20vw;
@@ -141,6 +148,7 @@ img.team-image {
     overflow: hidden;
 }
 
+/* FAQ Section */
 .faq {
     padding-left: 5vw !important;
     padding-right: 5vw !important;
@@ -219,8 +227,9 @@ img.team-image {
 
 .answer{
     display:none;
-  }
+}
 
+/* Contact Section */
 .contact {
     padding-left: 5vw !important;
     padding-right: 5vw !important; 
@@ -238,6 +247,7 @@ img.team-image {
     color: red !important; 
 }
 
+/* Map Section */
 .google-map {
     padding-bottom: 40%;
     position: relative;
@@ -251,6 +261,7 @@ img.team-image {
     position: absolute;
 }
 
+/* Footer Section */
 .footer {
     background-color: #000000 !important; 
     color: #ffffff !important; 
