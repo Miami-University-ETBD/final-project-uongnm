@@ -35,9 +35,24 @@ a.logo {
     padding-left: 5vw; 
     color: #ffffff;
 }
+
 .hero-button {
     font-size: 20px; 
     margin-top: 2.5vh; 
+}
+
+.hero-button:hover {
+    background-color: #54bc44 !important;
+}
+
+.modal-header {
+    color: #fff!important;
+    background-color: #000000!important;
+}
+
+.modal-footer {
+    color: #fff!important;
+    background-color: #000000!important;
 }
 
 .about {
@@ -87,6 +102,10 @@ img.gallery {
     right:24px;
     color: #ffffff !important;
     background-color: #54bc44 !important;
+}
+
+.close-button {
+    color: #54bc44 !important;
 }
 
 .team-container {
