@@ -82,6 +82,13 @@ a.logo-diabled {
     padding-right: 5vw !important; 
 }
 
+.about-special {
+    color: #ffffff !important; 
+    background-color: #000000!important;
+    padding-left: 10vw !important;
+    padding-right: 10vw !important; 
+}
+
 /* Project Section */
 img.gallery {
     width: 100%;
@@ -161,6 +168,19 @@ img.team-image {
     color: #ffffff !important;
 }
 
+.service-tabs .ui-widget-content {
+    border-right: 0px solid #ffffff !important;
+    border-left: 0px solid #ffffff !important;
+    border-top: 0px solid #ffffff !important;
+    border-bottom: 0px solid #ffffff !important;
+    background: #ffffff !important;
+    color: #333333 !important;
+}
+
+.ui-widget .ui-widget-content {
+    border: 0px !important;
+}
+
 .ui-widget {
     font-family: Verdana,sans-serif !important;
     font-size: 15px !important;
@@ -177,6 +197,19 @@ img.team-image {
     color: #ffffff;
     font-weight: bold;
 }
+
+.service-tabs .ui-widget-header {
+    border: 0px !important;
+    background: #ffffff !important;
+    color: #333333;
+    font-weight: bold;
+}
+
+.ui-tabs {
+    position: relative;
+    padding: 0em !important; 
+}
+
 .ui-tabs .ui-tabs-nav {
     margin-top: 20px !important;
     padding: 0 !important;
@@ -207,7 +240,6 @@ img.team-image {
     font-weight: normal;
     color: #ffffff !important;
 }
-
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
     border: 1px solid #54bc44 !important;
     background: #54bc44 !important;
