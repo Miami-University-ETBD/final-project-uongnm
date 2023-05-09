@@ -26,14 +26,10 @@ function w3_open() {
     $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
   } );
 
-  jQuery( document ).ready(function( $ ) {
-  
-    var question = $('.accordion .question');
-    var answer = $('.accordion .answer');
-    
-   $(question).click(function(){
-      $(answer).slideUp();
-      $(this).next().slideToggle('fast');
-    });
-     
+  // jQuery script 
+  $(document).ready(function() {
+    $('.accordion .question').click(function() {
+      $(this).next().toggle('slow');
+  })
   });
+  
