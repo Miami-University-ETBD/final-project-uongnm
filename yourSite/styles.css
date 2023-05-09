@@ -187,6 +187,17 @@ img.team-image {
 .contact-text-teal {
     color: #54bc44 !important;
 }
+
 .error {
     color: red !important; 
+}
+
+.footer {
+    background-color: #000000 !important; 
+    color: #ffffff !important; 
+}
+
+.top-button {
+    color: #ffffff !important;
+    background-color: #54bc44 !important;
 }
