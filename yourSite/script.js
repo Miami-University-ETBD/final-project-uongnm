@@ -24,7 +24,6 @@ function w3_open() {
   $( function() {
     $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
     $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
-    $("#name").focus();
     $("#contact_form").validate({         //<form> tag’s id
       rules: {
         name: {
