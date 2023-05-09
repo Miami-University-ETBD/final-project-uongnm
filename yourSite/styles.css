@@ -16,6 +16,14 @@ a.logo {
     background-color: #54bc44 !important; 
 }
 
+a.logo-diabled {
+    background-color: #000000 !important; 
+}
+
+.current-page {
+    background-color: #54bc44 !important;
+}
+
 .drop-down {
     text-decoration: none; 
 }
@@ -30,9 +38,19 @@ a.logo {
     height: 100vh;
 }
 
+.hero-service {
+    background-image:
+    linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,1));
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100vw;
+    height: 75vh;
+}
+
 .hero-content {
     margin-bottom: 5vh;
     padding-left: 5vw; 
+    padding-right: 5vw; 
     color: #ffffff;
 }
 

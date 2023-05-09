@@ -22,29 +22,17 @@
   </head>
 
   <body id="myPage">
-    <!-- Sidebar on click -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
-    <i class="fa fa-remove"></i>
-  </a>
-  <a href="#service1.html" class="w3-bar-item w3-button">Schematic Design</a>
-  <a href="#service2.html" class="w3-bar-item w3-button">Design Development</a>
-  <a href="#service3.html" class="w3-bar-item w3-button">Construction Documents</a>
-  <a href="#service4.html" class="w3-bar-item w3-button">Bidding/negotiating</a>
-  <a href="#service5.html" class="w3-bar-item w3-button">Contract Administration</a>
-</nav>
-
 <!-- Navbar -->
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="#" class="logo w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Michelangler</a>
+  <a href="#" class="w3-bar-item w3-button w3-teal logo-diabled"><i class="fa fa-home w3-margin-right"></i>Michelangler</a>
   <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
   <a href="#project" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Projects</a>
   <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button dropdown-button" title="Notifications"><a href="#service" class="drop-down">Service</a><i class="fa fa-caret-down"></i></button>     
+    <button class="w3-button dropdown-button current-page" title="Notifications"><a href="#service" class="drop-down">Service</a><i class="fa fa-caret-down"></i></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="#service1.html" class="w3-bar-item w3-button">Schematic Design</a>
+      <a href="#service1.html" class="w3-bar-item w3-button current-page">Schematic Design</a>
       <a href="#service2.html" class="w3-bar-item w3-button">Design Development</a>
       <a href="#service3.html" class="w3-bar-item w3-button">Construction Documents</a>
       <a href="#service4.html" class="w3-bar-item w3-button">Bidding/negotiating</a>
@@ -79,11 +67,10 @@
 </div>
 
 <!-- Image Header -->
-<div class="hero w3-display-container">
+<div class="hero-service w3-display-container">
   <div class="hero-content w3-display-bottomleft">  
-    <h1>CLIMATE ACTION THROUGH DESIGN</h1>
-    <h2>Our Strategies Are Transforming the Built Environment for a Net Carbon Future!</h1>
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-theme w3-hover-teal hero-button">LEARN MORE</button>
+    <h1>WHAT IS SCHEMATIC DESIGN PHASE?</h1>
+    <h2>This is a comprehensive guide on the schematic design phase - the first phase of an architectural project. We’ll explore what it is, who’s involved, what’s included and examples of schematic design drawings.</h1>
   </div>
 </div>
 
@@ -316,7 +303,6 @@
     </div>
     </div>
   </div>
-  
   </div>
   
   <!-- Container -->
@@ -413,46 +399,6 @@
   </div>
   </div>
   </div>
-
-<!-- Contact Container -->
-<div class="w3-container w3-padding-64 w3-theme-l5 contact" id="contact">
-  <div class="w3-row">
-    <div class="w3-col m5">
-    <div class="w3-padding-16"><span class="w3-xlarge contact-bar">Contact Us</span></div>
-      <h3>Address</h3>
-      <p>Swing by for a cup of coffee, or whatever.</p>
-      <p><i class="fa fa-map-marker contact-text-teal w3-xlarge"></i>  Ohio, US</p>
-      <p><i class="fa fa-phone contact-text-teal w3-xlarge"></i>  +00 1515151515</p>
-      <p><i class="fa fa-envelope-o contact-text-teal w3-xlarge"></i>  test@test.com</p>
-    </div>
-    <div class="w3-col m7">
-      <form class="w3-container w3-card-4 w3-padding-16 w3-white" method="get" name="contact_form" id="contact_form">
-      <div class="w3-section">      
-        <label>Name</label>
-        <input class="w3-input" type="text" name="name" id="name" autofocus>
-      </div>
-      <div class="w3-section">      
-        <label>Email</label>
-        <input class="w3-input" type="email" name="email" id="email">
-      </div>
-      <div class="w3-section">      
-        <label>Phone</label>
-        <input class="w3-input" type="tel" name="phone" id="phone">
-      </div>  
-      <div class="w3-section">      
-        <label>Message</label>
-        <input class="w3-input" type="text" name="message" id="message">
-      </div>  
-      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
-      </form>
-    </div>
-  </div>
-</div>
-
-<!-- Image of location/map -->
-<div class="google-map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11963.226128860179!2d-84.74603643735682!3d39.50447291807852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403d0f5cb5f1fb%3A0xee68ce30d277e9b2!2sMiami%20University!5e0!3m2!1sen!2sus!4v1683644347879!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-center footer">
