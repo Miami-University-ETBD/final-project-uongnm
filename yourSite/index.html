@@ -42,8 +42,10 @@
   <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
   <a href="#project" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Projects</a>
   <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button" title="Notifications"><a href="#service" class="drop-down">Service</a><i class="fa fa-caret-down"></i></button>     
+    <button class="w3-button dropdown-button" title="Notifications"><a href="#service" class="drop-down">Service</a><i class="fa fa-caret-down"></i></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
       <a href="#" class="w3-bar-item w3-button">Link</a>
       <a href="#" class="w3-bar-item w3-button">Link</a>
       <a href="#" class="w3-bar-item w3-button">Link</a>
@@ -59,7 +61,18 @@
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button">About</a>
     <a href="#project" class="w3-bar-item w3-button">Projects</a>
-    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button" title="Notifications"><a href="#service" class="drop-down">Service</a><i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+        <a href="#" class="w3-bar-item w3-button">Link</a>
+        <a href="#" class="w3-bar-item w3-button">Link</a>
+        <a href="#" class="w3-bar-item w3-button">Link</a>
+        <a href="#" class="w3-bar-item w3-button">Link</a>
+        <a href="#" class="w3-bar-item w3-button">Link</a>
+      </div>
+    </div>
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#faq" class="w3-bar-item w3-button">FAQ</a>
     <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     <a href="#" class="w3-bar-item w3-button">Search</a>
   </div>
@@ -437,7 +450,9 @@
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+<div class="google-map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11963.226128860179!2d-84.74603643735682!3d39.50447291807852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403d0f5cb5f1fb%3A0xee68ce30d277e9b2!2sMiami%20University!5e0!3m2!1sen!2sus!4v1683644347879!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-center footer">

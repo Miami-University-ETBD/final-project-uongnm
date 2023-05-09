@@ -4,9 +4,18 @@ html, body {
     line-height: 1.5;
 }
 
+.w3-bar .w3-bar-item {
+    padding: 10px 20px !important;
+}
+
+.dropdown-button {
+    padding: 10px 20px !important;
+}
+
 a.logo {
     background-color: #54bc44 !important; 
 }
+
 .drop-down {
     text-decoration: none; 
 }
@@ -190,6 +199,19 @@ img.team-image {
 
 .error {
     color: red !important; 
+}
+
+.google-map {
+    padding-bottom: 40%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
 }
 
 .footer {
