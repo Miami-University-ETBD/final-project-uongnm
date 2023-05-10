@@ -168,7 +168,7 @@ img.team-image {
     color: #ffffff !important;
 }
 
-.service-tabs .ui-widget-content {
+.service-tabs {
     border-right: 0px solid #ffffff !important;
     border-left: 0px solid #ffffff !important;
     border-top: 0px solid #ffffff !important;
@@ -195,13 +195,6 @@ img.team-image {
     border: 0px !important;
     background: #333333 !important;
     color: #ffffff;
-    font-weight: bold;
-}
-
-.service-tabs .ui-widget-header {
-    border: 0px !important;
-    background: #ffffff !important;
-    color: #333333;
     font-weight: bold;
 }
 
