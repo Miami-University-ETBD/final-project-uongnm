@@ -286,6 +286,13 @@ img.team-image {
     position: absolute;
 }
 
+/* Price Section */
+@media (min-width: 601px) {
+    .w3-col.m4, .w3-third {
+        width: 20% !important;
+    }
+}
+
 /* Footer Section */
 .footer {
     background-color: #000000 !important; 
